@@ -12,9 +12,7 @@ import axios from "axios";
  *   GET  /schemes         -> { count, schemes: [{ name, category, ministry, source_pdf }] }
  *   GET  /schemes/search  -> { query, schemes: [...] }                          query param: q
  */
-export const API_BASE_URL = (
-  import.meta.env.VITE_API_URL || "http://localhost:8000"
-).replace(/\/$/, "");
+export const API_BASE_URL = "https://citizenai-backend-7yh8.onrender.com";
 
 const api = axios.create({
   baseURL: API_BASE_URL,
