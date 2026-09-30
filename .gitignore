@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+venv/
+.venv/
+
+# Environment / API keys
+.env
+.env.*
+!.env.example
+
+# Python generated data
+backend/data/vector_store/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
