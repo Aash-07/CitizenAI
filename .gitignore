@@ -10,9 +10,6 @@ venv/
 .env.*
 !.env.example
 
-# Python generated data
-backend/data/vector_store/
-
 # Node
 frontend/node_modules/
 frontend/dist/
